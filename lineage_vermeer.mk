@@ -14,6 +14,15 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from vermeer device
 $(call inherit-product, device/xiaomi/vermeer/device.mk)
 
+# RisingOs Flags
+RISING_MAINTAINER=Spacemk1014
+TARGET_ENABLE_BLUR := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
+WITH_GMS := true
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RISING_CHIPSET="Snapdragon 8 Gen 2" \
+    RISING_MAINTAINER=Justin117
+
 PRODUCT_DEVICE := vermeer
 PRODUCT_NAME := lineage_vermeer
 PRODUCT_BRAND := POCO
