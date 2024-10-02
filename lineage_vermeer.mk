@@ -18,7 +18,6 @@ $(call inherit-product, device/xiaomi/vermeer/device.mk)
 RISING_MAINTAINER=Spacemk1014
 TARGET_ENABLE_BLUR := true
 TARGET_DEFAULT_PIXEL_LAUNCHER := true
-TARGET_DISABLE_EPPE := true
 WITH_GMS := true
 PRODUCT_BUILD_PROP_OVERRIDES += \
     RISING_CHIPSET="Snapdragon 8 Gen 2" \
