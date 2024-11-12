@@ -16,7 +16,7 @@ $(call inherit-product, device/xiaomi/vermeer/device.mk)
 
 # Infinity X Settings
 INFINITY_BUILD_TYPE := UNOFFICIAL
-INFINITY_MAINTAINER := Justin117(Spacemk)
+INFINITY_MAINTAINER := Lunark :3(ByteWave)
 TARGET_SUPPORTS_BLUR := true
 TARGET_HAS_UDFPS := true
 WITH_GAPPS := true
